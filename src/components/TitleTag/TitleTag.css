@@ -1,0 +1,20 @@
+.TitleTag{
+    background-color: #174C4F;
+    width: 220px;
+    height: 90px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform-origin: left bottom;
+    transform: rotate(-25deg);
+    z-index: 90;
+}
+
+p{
+    position: absolute;
+    color: #F7ECDE;
+    bottom: 0%;
+    right: 50%;
+    z-index: 900;
+
+}
