@@ -4,7 +4,7 @@ import './TitleTag.css'
 export default function TitleTag() {
   return (
     <div className='TitleTag' >
-       <p>TitleTag</p> 
+       <p className='TitleTagText'>TitleTag</p> 
     </div>
   )
 }

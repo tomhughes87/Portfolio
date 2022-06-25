@@ -10,7 +10,7 @@
     z-index: 90;
 }
 
-p{
+.TitleTagText{
     position: absolute;
     color: #F7ECDE;
     bottom: 0%;
