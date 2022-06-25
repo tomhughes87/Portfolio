@@ -1,20 +1,15 @@
 import React from 'react'
+import MainCursor from '../components/MainCursor/MainCursor'
+import WorkInProgress from '../components/WorkInProgress/WorkInProgress'
+import './HomePage.css'
 
 export default function HomePage() {
   return (
     <>
-    <div>
-      <h1>This page is under consruction</h1>
-    </div>
-    <div>
-      <h3>A sneak peek:</h3>
-      <img src='sneakpeak1.PNG' />
-      <img src='sneakpeak2.PNG' />
-      <img src='sneakpeak3.PNG' />
-
-    </div>
+    <MainCursor />
+    
+    <div className='EntireSplashScreen'></div>
     </>
-
 
   )
 }
