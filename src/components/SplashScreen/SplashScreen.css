@@ -1,0 +1,113 @@
+.EntireSplashScreen{
+    background-color: #F7ECDE;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+    cursor: none;
+}
+
+.topLeftBox{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    background-color: #88a3ed;
+    height: 35%;
+    width: 49.5%;
+    background-image: url('../../../public/images/SplashScreen-Wall.png');
+    background-size: cover;
+    background-size: 200%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btmLeftBox{
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    background-color: #244292;
+    height: 63%;
+    width: 49.5%;
+    background-image: url('../../../public/images/SplashScreen-Me.png');
+    background-size: cover;
+    background-position: 0%;
+    background-size: 100%;  
+}
+
+.topRightBox{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    background-color: #eddf88;
+    height: 60%;
+    width: 49.5%;
+    background-image: url('../../../public/images/SplashScreen-Coding.png');
+    background-size: cover;
+    background-position: 0%;
+}
+
+.btmRightBox{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    background-color: #922440;
+    height: 38%;
+    width: 49.5%;
+    background-image: url('../../../public/images/SplashScreen-Planning.png');
+    background-size: cover;
+    background-position: 100%;
+}
+
+/* .SplashScreenImg:hover{
+    transition-duration: 2s;
+    filter: brightness(1.2);
+    background-size: 102%;
+} */
+
+.SplashScreenImg:active{
+    /* filter: brightness(4); */
+    transition-duration: 2s;
+
+    opacity: 0;
+}
+
+
+
+.NameBox{
+    text-align: center;
+    width: fit-content;
+    border-style: solid;
+    border-width: 6px;
+    border-color: #F7ECDE;
+    display: inline-block;
+    padding-left: 14%;
+    padding-right: 14%;
+    font-size: xx-large;
+    /* font-family:   "Lucida Console"; */
+    font-family: 'Franklin Gothic Medium',  Arial, sans-serif;
+}
+
+p{
+padding: 0ch;
+display: block;
+margin-block-start: 0.2em;
+margin-block-end: 0.2em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+}
+
+.UnderNameBox{
+    font-family: 'Arial Narrow', "Garamond";
+    font-size: x-large;
+}
+
+.Container-NameBox{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#F7ECDE ;
+    width: 50%;
+
+}
